@@ -357,7 +357,49 @@
 // 10. Combining Different Operators
 // Write a program that combines arithmetic, comparison, logical, and assignment operators in a single expression. Evaluate and log the result of the following expression:
 
-let x = 5;
-let y = 10;
-let result = (x + y * 2 > 20) && (x += 5) || (y -= 3);
-console.log(result); 
+// let x = 5;
+// let y = 10;
+// let result = (x + y * 2 > 20) && (x += 5) || (y -= 3);
+// console.log(result); 
+
+
+
+
+// 12. Optional Challenge: Operator Puzzle
+// Solve the following operator puzzle. Can you predict the final values of x and y?
+
+// let x = 3;
+// let y = x++ + ++x + --x + x-- - x;
+
+// // 3+5+4+4-3
+
+// console.log(x, y);
+
+
+// #####################  Normal function ###################
+
+// function fun1(a , b){
+//     console.log("fun1" , a ,b , a*b,a/b)
+// }
+
+// fun1(7,5);
+
+
+// ################ arrow function ################
+
+
+// function fun1(a,b){
+//     console.log("fun1",a/b)
+//     return a+b
+// }
+
+// // let fun11=fun1;
+// // let fun2=a=> a+10;
+// var fun2=a=>{
+//     a=a+10
+//     return a+9
+
+// };
+// console.log(fun2(30));
+
+// console.log(fun2(5),fun11(5,3));
